@@ -14,9 +14,6 @@ import Financial from './Dashboards/Financial';
 import Stock from './Dashboards/Stock';
 import Reports from './Dashboards/Reports';
 
-import Cards from './Cards/Cards';
-import CardsHeaders from './Cards/CardsHeaders';
-
 import NavbarOnly from './Layouts/NavbarOnly';
 import SidebarDefault from './Layouts/SidebarDefault';
 import SidebarA from './Layouts/SidebarA';
@@ -122,11 +119,6 @@ export const RoutedContent = () => {
             <Route path="/dashboards/stock" exact component={Stock} />
             <Route path="/dashboards/reports" exact component={Reports} />
 
-                
-            { /*    Cards Routes     */ }
-            <Route path='/cards/cards' exact component={Cards} />
-            <Route path='/cards/cardsheaders' exact component={CardsHeaders} />
-            
             { /*    Layouts     */ }
             <Route path='/layouts/navbar' component={NavbarOnly} />
             <Route path='/layouts/sidebar' component={SidebarDefault} />
