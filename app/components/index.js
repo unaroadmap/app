@@ -37,7 +37,8 @@ import {
 import Tools from './Tools';
 import UncontrolledModal from './UncontrolledModal';
 import UncontrolledPopover from './UncontrolledPopover';
-import UncontrolledTabs from './UncontrolledTabs';
+
+
 // Export non overriden Reactstrap components
 export {
     Badge,
