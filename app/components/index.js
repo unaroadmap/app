@@ -1,4 +1,4 @@
-import Accordion from './Accordion';
+
 import Avatar, { AvatarAddOn } from './Avatar';
 import Card from './Card';
 import CardHeader from './CardHeader';
@@ -114,44 +114,20 @@ export {
     UncontrolledTooltip
 } from 'reactstrap';
 export {
-    Accordion,
-    //App,
+     //App,
     Avatar,
     AvatarAddOn,
-    Card,
-    CardHeader,
-    Checkable,
-    CustomInput,
-    Divider,
-    EmptyLayout,
     ExtendedDropdown,
-    FloatGrid,
     IconWithBadge,
     InputGroupAddon,
-    HolderProvider,
     Layout,
     Nav,
     Navbar,
-    NavbarThemeProvider,
-    NestedDropdown,
-    withPageConfig,
-    setupPage,
-    OuterClick,
-    PageLoader,
-    PageConfigConsumer,
-    PageConfigProvider,
-    Progress,
+    PageConfigConsumer,    
     Sidebar,
     SidebarMenu,
     SidebarTrigger,
-    StarRating,
-    ThemeClass,
-    ThemeConsumer,
     ThemeProvider,
     ThemeSelector,
-    Tools,
-    UncontrolledPopover,
-    UncontrolledTabs,
-    UncontrolledModal,
-    Wizard
+    UncontrolledPopover
 };
