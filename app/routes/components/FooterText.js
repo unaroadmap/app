@@ -3,15 +3,13 @@ import PropTypes from 'prop-types';
 
 const FooterText = (props) => (
 	<React.Fragment>
-		(C) { props.year } All Rights Reserved. This is the &quot;{ props.name }&quot; built with { props.desc }. 
-		Designed and implemented by{' '}
+		2020 All Rights Reserved. 
 		<a
-			href="http://www.webkom.co"
+			href="http://www.unaroadmap.com.br"
 			target="_blank"
 			rel="noopener noreferrer"
 			className="sidebar__link"
-		>
-			www.webkom.co
+		> www.unaroadmap.com.br
 		</a>
 	</React.Fragment>
 )
