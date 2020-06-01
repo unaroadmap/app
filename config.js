@@ -20,7 +20,7 @@ var config = {
     // Site Config ====================================================
     siteTitle:              'UnaRoadMap',
     siteDescription:        'Projeto una',
-    siteCannonicalUrl:      'http://localhost',
+    siteCannonicalUrl:      'https://unaroadmap.herokuapp.com',
     siteKeywords:           'Projeto una',
     scssIncludes:           []
 }
