@@ -10,7 +10,7 @@
     "build:prod": "node ./build/cli-tools.js --clear dist --create dist && webpack --config ./build/webpack.config.client.prod.js",
     "start:dev": "node ./build/cli-tools.js --clear dist --create dist && webpack-dev-server --config ./build/webpack.config.client.dev.js",
     "start:prod": "node ./build/cli-tools.js --clear dist --create dist && webpack-dev-server --config ./build/webpack.config.client.prod.js",
-    "heroku-postbuild": "webpack -p"
+    "heroku-postbuild": "node ./build/cli-tools.js --clear dist --create dist && webpack --config ./build/webpack.config.client.dev.js"
   },
   "author": "Webkom",
   "license": "ISC",
