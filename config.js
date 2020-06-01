@@ -20,7 +20,7 @@ var config = {
     // Site Config ====================================================
     siteTitle:              'UnaRoadMap',
     siteDescription:        'Projeto una',
-    siteCannonicalUrl:      'http://localhost:4100',
+    siteCannonicalUrl:      'http://localhost',
     siteKeywords:           'Projeto una',
     scssIncludes:           []
 }
