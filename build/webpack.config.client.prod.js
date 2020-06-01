@@ -141,13 +141,13 @@ module.exports = {
         ]
     },
     devServer: {
-        hot: false,
+        hot: true,
         contentBase: config.distDir,
         compress: true,
         historyApiFallback: {
             index: '/'
         },
-        host: '0.0.0.0',
-        port: 4100
+        //host: '0.0.0.0',
+        //port: 4100
     }
 }

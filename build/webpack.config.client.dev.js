@@ -138,7 +138,7 @@ module.exports = {
         ]
     },
     devServer: {
-        hot: true,
+        hot: false,
         contentBase: config.serveDir,
         compress: true,
         historyApiFallback: {
